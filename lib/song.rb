@@ -1,7 +1,11 @@
 class Song
 
+  def initialize(song_name)
+    @name = song_name
+  end
+
   def artist(artist)
-    @artist = artist 
+    @artist = artist
   end
 
   def artist
