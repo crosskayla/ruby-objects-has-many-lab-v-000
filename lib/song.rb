@@ -6,4 +6,8 @@ class Song
     @name = song_name
   end
 
+  def artist_name
+    @artist ? @artist.name : nil
+  end
+
 end
