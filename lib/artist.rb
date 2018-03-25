@@ -2,6 +2,8 @@ require 'pry'
 
 class Artist
 
+  @@song_list = 0
+
   def initialize(artist_name)
     @name = artist_name
     @songs = []
