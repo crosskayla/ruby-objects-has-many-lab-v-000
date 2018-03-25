@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
 
   def initialize(artist_name)
