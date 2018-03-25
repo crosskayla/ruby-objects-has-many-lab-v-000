@@ -7,7 +7,10 @@ class Post
   end
 
   def author_name
-    @author.name unless !@author.name
+    if @author.name != nil
+      @author.name
+    else
+      nil
   end
 
 end
